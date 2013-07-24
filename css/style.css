@@ -1,0 +1,347 @@
+/*****************************************************************               
+############################################
+
+TITLE:                kira
+AUTHOR:        CopyCat Designs (la.senorita.maria[at]gmail.com)
+CREATED:       June 09, 2006 (Go England!)
+
+############################################
+*****************************************************************/
+
+body {
+font-family : 'Trebuchet MS', Arial, serif;
+background-color : #ffffff;
+color : #9e9b9a;
+font-weight : lighter;
+font-size : 13px;
+padding-bottom : 20px;
+padding-right : 10px;
+margin-left : auto;
+margin-right : auto;
+      }
+
+
+/**************                                            LAYOUT                         
+###########################################*/
+	
+#pagewidth {
+width : 700px;
+text-align : left;
+margin-left : auto;
+margin-right : auto;
+background-color : #ffffff;
+padding : 55px;
+font-size : 13px;
+color : #9e9b9a;
+      }
+#header {
+position : relative;
+height : 80px;
+width : 100%;
+padding-top : 57px;
+      }
+#subheader {
+position : relative;
+height : 100px;
+background-color : inherit;
+font-family : 'Trebuchet MS', Arial, serif;
+color : #4e4e4e;
+font-weight : lighter;
+font-size : 13px;
+      }
+#maincol {
+float : right;
+display : inline;
+position : relative;
+width : 64.9%;
+z-index : 1;
+      }
+#leftcol {
+float : left;
+display : inline;
+position : relative;
+width : 25%;
+      }
+#footer {
+height : 55px;
+clear : both;
+text-align : center;
+padding-top : 30px;
+      }
+#footer p {
+font-size : 13px;
+      }
+#footer a:hover {
+text-decoration : none;
+color : #fcb9b9;
+background-color : inherit;
+      }
+#footer a {
+color : #9e9b9a;
+background-color : inherit;
+      }
+#subfooter {
+background-color : inherit;
+text-align : center;
+font-family : 'Trebuchet MS', Arial, serif;
+color : #9e9b9a;
+font-weight : lighter;
+font-size : 13px;
+      }
+.clearfix:after {
+content : ".";
+display : block;
+height : 0;
+clear : both;
+visibility : hidden;
+      }
+.clearfix {
+display : inline-table;
+      }
+html .clearfix {
+height : 1%;
+      }
+.clearfix {
+display : block;
+      }
+@media print {
+      }
+
+
+/**************                                            LINKS                         
+###########################################*/	
+
+a:link {
+text-decoration : none;
+color : #fcb9b9;
+background-color : inherit;
+      }
+a:visited {
+text-decoration : none;
+color : #fcb9b9;
+background-color : inherit;
+      }
+a:active {
+text-decoration : none;
+color : #fcb9b9;
+background-color : inherit;
+      }
+a:hover {
+text-decoration : none;
+color : #9e9b9a;
+background-color : inherit;
+      }
+#maincol a:hover {
+text-decoration : none;
+color : #9e9b9a;
+background-color : inherit;
+border-bottom : 1px solid #fcb9b9;
+      }
+#leftcol a:hover {
+text-decoration : none;
+color : #9e9b9a;
+background-color : inherit;
+border-bottom : 1px solid #fcb9b9;
+      } 
+
+
+/**************                                            HEADERS                         
+###########################################*/	
+
+h1 span {
+color : #9e9b9a;
+font-family : 'Trebuchet MS', Arial, serif;
+font-weight : lighter;
+background-color : inherit;
+font-size : 14px;
+      }
+h1 {
+font-size : 26px;
+color : #fcb9b9;
+font-family : 'Trebuchet MS', Arial, serif;
+font-weight : lighter;
+background-color : inherit;
+      }
+h2 {
+font-size : 14px;
+padding-bottom : 15px;
+color : #fcb9b9;
+font-family : 'Trebuchet MS', Arial, serif;
+font-weight : lighter;
+background-color : inherit;
+      }
+#leftcol h2 {
+font-size : 14px;
+padding-bottom : 15px;
+color : #fcb9b9;
+font-family : 'Trebuchet MS', Arial, serif;
+font-weight : lighter;
+background-color : inherit;
+      }
+
+
+/**************                                            PARAGRAPHS                         
+###########################################*/	
+p {
+font-family : 'Trebuchet MS', Arial, serif;
+color : #9e9b9a;
+font-weight : lighter;
+font-size : 13px;
+background-color : inherit;
+      }
+span {
+font-family : 'Trebuchet MS', Arial, serif;
+color : #fcb9b9;
+background-color : inherit;
+      }
+#maincol p {
+font-family : 'Trebuchet MS', Arial, serif;
+color : #9e9b9a;
+font-weight : lighter;
+font-size : 13px;
+padding-bottom : 20px;
+padding-right : 10px;
+background-color : inherit;
+      }
+#leftcol p {
+font-family : 'Trebuchet MS', Arial, serif;
+color : #9e9b9a;
+font-weight : lighter;
+font-size : 13px;
+padding-bottom : 25px;
+background-color : inherit;
+margin-bottom : 30px;
+      }
+
+
+/**************                                            BLOCKQUOTES                         
+###########################################*/
+	
+blockquote {
+font-family : 'Trebuchet MS', Arial, serif;
+color : #9e9b9a;
+font-weight : lighter;
+font-size : 14px;
+margin-left : auto;
+margin-right : auto;
+width : 60%;
+margin-bottom : 10px;
+padding-right : 10px;
+background-color : inherit;
+background : url(../images/quotebottom.gif) no-repeat bottom right;
+      }
+blockquote p {
+font-size : 14px;
+padding-bottom : 14px;
+color : #9e9b9a;
+font-family : 'Trebuchet MS', Arial, serif;
+font-weight : lighter;
+background-color : inherit;
+background : url(../images/quotetop.gif) no-repeat 5px 0;
+padding-left : 24px;
+padding-top : 20px;
+      }
+
+/**************                                            LISTS                         
+###########################################*/	
+
+#maincol ul {
+margin-bottom : 20px;
+margin-left : 20px;
+      }
+#maincol li {
+list-style-image : url(../images/bullet.gif);
+      }
+#right {
+left : 100px;
+position : relative;
+      }
+
+/**************                                            FORMS                         
+###########################################*/	
+
+form {
+padding-top : 30px;
+      }
+label, input, textarea {
+display : block;
+width : 150px;
+float : left;
+margin-bottom : 10px;
+font-family : 'Trebuchet MS', serif, Arial;
+background-color : inherit;
+color : #9e9b9a;
+border-right : 1px solid #ffffff;
+border-left : 1px solid #ffffff;
+border-top : 1px solid #ffffff;
+border-bottom : 1px solid #fcb9b9;
+overflow : auto;
+      }
+input, textarea {
+color : #9e9b9a;
+background-color : inherit;
+      }
+label {
+text-align : right;
+width : 75px;
+padding-right : 20px;
+font-family : 'Trebuchet MS', serif, Arial;
+border : 1px solid #ffffff;
+      }
+br {
+clear : left;
+      }
+.button {
+background-color : #ffffff;
+color : #9e9b9a;
+border-bottom : 1px solid #ffffff;
+font-size : 13px;
+padding : 0;
+margin-top : 20px;
+font-family : 'Trebuchet MS', serif, Arial;
+cursor : default;
+      }
+.button:hover {
+background-color : inherit;
+color : #fcb9b9;
+cursor : pointer;
+}
+.hidden {
+border : 0;
+overflow : hidden;
+      }
+
+/**************                                            IMAGES                         
+###########################################*/	
+
+a img {
+border : none;
+      }
+a img:hover {
+border : 1px solid #9e9b9a;
+}
+img.left, img.center, img.right {
+padding : 4px;
+border : 1px solid #fcb9b9;
+      }
+img.left {
+float : left;
+margin-left : auto;
+margin-right : auto;
+margin-top : 10px;
+margin-bottom : 10px;
+      }
+img.center {
+display : block;
+margin-left : auto;
+margin-right : auto;
+margin-top : 10px;
+margin-bottom : 10px;
+      }
+img.right {
+float : right;
+margin-left : auto;
+margin-right : auto;
+margin-top : 10px;
+margin-bottom : 10px;
+      }

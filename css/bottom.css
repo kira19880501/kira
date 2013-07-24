@@ -1,0 +1,55 @@
+#bcfnavbar {
+margin : 0;
+padding : 0;
+      }
+#bcfnavbar ul {
+background : url(../navigation_images/bbg.gif) repeat-x;
+padding : 0;
+margin : 0;
+float : left;
+font-weight : bold;
+font-size : 13px;
+font-family : 'Trebuchet MS', serif, Arial;
+      }
+#bcfnavbar ul li {
+display : inline;
+      }
+#bcfnavbar ul li a, #bcfnavbar ul li span {
+float : left;
+color : #9e9b9a;
+background-color : inherit;
+font-weight : lighter;
+padding : 8px 13px 5px 6px;
+text-decoration : none;
+background : url(../navigation_images/bdivider.gif) no-repeat top right;
+      }
+#bcfnavbar ul li span {
+padding-left : 0;
+      }
+#bcfnavbar ul li a#bleftcorner {
+float : none;
+padding-left : 10px;
+padding-right : 0;
+background : url(../navigation_images/bleftcorner.gif) no-repeat top left;
+      }
+#bcfnavbar ul li a:hover#leftcorner {
+padding-left : 10px;
+padding-right : 0;
+background : url(../navigation_images/bleftcorner.gif) no-repeat bottom left;
+      }
+#bcfnavbar ul li a#brightcorner {
+padding-right : 10px;
+background : url(../navigation_images/brightcorner.gif) no-repeat top right;
+      }
+#bcfnavbar ul li a:hover {
+text-decoration : none;
+color : #fcb9b9;
+background-color : inherit;
+      }
+#bcfnavbar:after {
+content : ".";
+display : block;
+height : 0;
+clear : both;
+visibility : hidden;
+      }

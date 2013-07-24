@@ -1,0 +1,51 @@
+#cfnavbar {
+margin : 0;
+padding : 0;
+      }
+#cfnavbar ul {
+background : url(../navigation_images/bgpink.gif) repeat-x bottom center;
+padding-left : 0;
+margin : 0;
+float : left;
+font-weight : bold;
+font-size : 13px;
+font-family : 'Trebuchet MS', serif, Arial;
+      }
+html #cfnavbar ul {
+margin-bottom : 1em;
+      }
+#cfnavbar ul li {
+display : inline;
+      }
+#cfnavbar ul li a, #cfnavbar ul li span {
+float : left;
+color : #9e9b9a;
+background-color : inherit;
+font-weight : lighter;
+padding : 7px 13px 8px 6px;
+text-decoration : none;
+background : url(../navigation_images/dividerpink.gif) no-repeat bottom right;
+      }
+#cfnavbar ul li span {
+padding-left : 0;
+      }
+#cfnavbar ul li a#leftcorner {
+float : none;
+padding-left : 10px;
+padding-right : 0;
+background : url(../navigation_images/leftcornerpink.gif) no-repeat bottom left;
+      }
+#cfnavbar ul li a:hover#leftcorner {
+padding-left : 10px;
+padding-right : 0;
+background : url(../navigation_images/leftcornerpink.gif) no-repeat bottom left;
+      }
+#cfnavbar ul li a#rightcorner {
+padding-right : 10px;
+background : url(../navigation_images/rightcornerpink.gif) no-repeat bottom right;
+      }
+#cfnavbar ul li a:hover {
+text-decoration : none;
+color : #fcb9b9;
+background-color : inherit;
+      }

@@ -1,0 +1,26 @@
+/* =Internet Explorer Fixes
+----------------------------------------------------------------------*/
+
+.hoverbox a
+{
+	position: relative;
+}
+
+.hoverbox a:hover
+{
+	display: block;
+	font-size: 100%;
+	z-index: 101;
+}
+
+.hoverbox a:hover .preview
+{
+	top: -38px;
+	left: -107px;
+	z-index: 102;
+}
+
+.hoverbox li
+{
+	position: static;
+}
